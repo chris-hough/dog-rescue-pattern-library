@@ -23,20 +23,24 @@ h1 {
 
 h2 {
   font-size: 1.424em;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 h3 {
   font-size: 1.266em;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 h4 {
   font-size: 1.125em;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 ol {
+  list-style-type: none;
+}
+
+ul {
   list-style-type: none;
 }
 
@@ -52,23 +56,6 @@ dt {
 a {
   color: var(--color-primary);
   text-decoration: none;
-}
-
-a:visited {
-  color: var(--color-primary-light);
-}
-
-a:hover {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-a:disabled {
-  color: var(--color-neutral);
-}
-
-a:active {
-  color: var(--color-secondary);
 }
 
 strong {
@@ -90,4 +77,8 @@ blockquote {
 
 small {
   font-size: .889em;
+}
+
+mark {
+  background-color: var(--color-primary-light);
 }

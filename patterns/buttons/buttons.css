@@ -1,7 +1,9 @@
 .btn {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
-
+  border-radius: 15px 0 15px 0;
+  border-width: 2px;
+  transition: all 300ms;
   color: #fff;
 }
 
@@ -17,4 +19,17 @@
   border-color: var(--color-primary);
 
   color: var(--color-primary);
+}
+
+.btn:hover,
+.btn:focus {
+  background-image: linear-gradient(to bottom, var(--color-primary), var(--color-primary-light));
+  border-color: var(--color-primary);
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus {
+  background-color: transparent;
+  color: var(--color-primary);
+  background-image: linear-gradient(to bottom, transparent, #fff);
 }
