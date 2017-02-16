@@ -14,7 +14,7 @@ html {
 
 h1 {
   font-family: var(--font-secondary);
-  font-weight:700;
+  font-weight: bold;
   color: var(--color-secondary);
   margin-top: 0;
   font-size: 1.602em;
