@@ -12,9 +12,9 @@ fonts:
     Used for block quotes and headings.
 colors:
   primary: |
-    The primary colours are inspired by the very tree the rescue is named for. They are gentle, but modern, and reflect the rural setting of the rescue. Used for headers, blockquotes, and any text that requires extra emphasis.
+    The primary colors are inspired by the very tree the rescue is named for. They are gentle, but modern, and reflect the rural setting of the rescue. Used for headers, block quotes, and any text that requires extra emphasis.
   secondary: |
-    The secondary colour adds some warmth and contrast. Use sparingly for headings and extra emphasis.
+    The secondary color adds some warmth and contrast. Use sparingly for headings and extra emphasis.
   neutral: |
     A cool grey to be used for dividing sections, or less important text.
 ---
