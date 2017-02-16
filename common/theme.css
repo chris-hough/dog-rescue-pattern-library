@@ -1,8 +1,7 @@
 :root {
   --color-primary: #6dbf71;
   --color-primary-light: #99d29c;
-  --colour-secondary: #e2fab6;
-  --color-accent: #b65155;
+  --color-secondary: #b65155;
   --color-neutral: #b7b7b7;
   --color-neutral-light: #ccc;
   --font-primary: "Lato", sans-serif;
@@ -15,8 +14,8 @@ html {
 
 h1 {
   font-family: var(--font-secondary);
-  font-weight: 900;
-  color: var(--color-accent);
+  font-weight:700;
+  color: var(--color-secondary);
   margin-top: 0;
   font-size: 1.602em;
   line-height: 1.95rem;
@@ -45,13 +44,9 @@ dl {
   color: var(--color-primary);
 }
 
-dd {
-  display: inline-block;
-}
-
 dt {
-  display: inline-block;
   font-weight: bold;
+  margin-top: 1em;
 }
 
 a {
@@ -65,6 +60,7 @@ a:visited {
 
 a:hover {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 a:disabled {
@@ -72,7 +68,7 @@ a:disabled {
 }
 
 a:active {
-  color: var(--color-accent);
+  color: var(--color-secondary);
 }
 
 strong {
