@@ -24,11 +24,13 @@ h1 {
 h2 {
   font-size: 1.424em;
   font-family: var(--font-secondary);
+  color: var(--color-primary);
 }
 
 h3 {
   font-size: 1.266em;
   font-family: var(--font-secondary);
+  color: var(--color-primary);
 }
 
 h4 {
@@ -83,6 +85,7 @@ blockquote {
 
 small {
   font-size: .889em;
+  color: var(--color-neutral);
 }
 
 mark {

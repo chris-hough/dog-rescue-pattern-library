@@ -1,0 +1,19 @@
+.dog-card {
+  max-width: 500px;
+  border-radius: 15px 0px 15px 0px;
+}
+
+small {
+  text-align: right;
+}
+
+.card {
+  background-color: #fff;
+  margin: 1em;
+  overflow: hidden;
+}
+
+.info-card {
+  border-top: 3px solid var(--color-secondary);
+  border-bottom: 3px solid var(--color-secondary);
+}
