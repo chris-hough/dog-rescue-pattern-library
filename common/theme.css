@@ -58,6 +58,12 @@ a {
   text-decoration: none;
 }
 
+a:focus,
+a:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
 strong {
   font-weight: bold;
 }
@@ -81,4 +87,10 @@ small {
 
 mark {
   background-color: var(--color-primary-light);
+}
+
+a:focus,
+button:focus,
+select:focus {
+  outline: none;
 }

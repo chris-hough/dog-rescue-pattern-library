@@ -1,30 +1,34 @@
 .btn {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
-  border-radius: 15px 0 15px 0;
+  border-radius: 15px 0;
   border-width: 2px;
   transition: all 300ms;
   color: #fff;
+  border: 2px solid var(--color-primary);
+  padding: .375em .75em .42em;
 }
 
 .btn-light {
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
-
   color: #fff;
 }
 
 .btn-ghost {
   background-color: transparent;
   border-color: var(--color-primary);
-
   color: var(--color-primary);
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.btn:active {
   background-image: linear-gradient(to bottom, var(--color-primary), var(--color-primary-light));
   border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
 .btn-ghost:hover,
@@ -32,4 +36,17 @@
   background-color: transparent;
   color: var(--color-primary);
   background-image: linear-gradient(to bottom, transparent, #fff);
+  box-shadow: none;
+}
+
+.btn-strong {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-strong:focus,
+.btn-strong:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  background-image: linear-gradient(to bottom, var(--color-secondary), rgba(255, 255, 255, .5));
 }
