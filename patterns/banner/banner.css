@@ -1,0 +1,44 @@
+.banner {
+  background-color: var(--color-primary);
+}
+
+h2 {
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    position: relative;
+  overflow: hidden;
+  }
+
+  .banner-text {
+    position: absolute;
+    float: right;
+    right: 0;
+    bottom: 10%;
+    width: 40%;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .banner-text {
+    position: absolute;
+
+    padding-top: 10em;
+  }
+}

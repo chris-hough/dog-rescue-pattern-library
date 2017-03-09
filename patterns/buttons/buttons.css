@@ -17,8 +17,8 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  border-color: #fff;
+  color: #fff;
 }
 
 .btn:hover,
@@ -34,8 +34,9 @@
 .btn-ghost:hover,
 .btn-ghost:focus {
   background-color: transparent;
-  color: var(--color-primary);
-  background-image: linear-gradient(to bottom, transparent, #fff);
+  color: #fff;
+  border-color: #fff;
+  background-image: linear-gradient(to bottom, transparent, var(--color-primary-light));
   box-shadow: none;
 }
 

@@ -419,11 +419,15 @@
         <nav class="pattern-nav milli">
           <ol class="list-group-inline pad-t-1-4 push-0">
               <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
-              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-dog-card">Dog card</a></li>
           </ol>
         </nav>
     </div>
 
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>Cards are used to denote important division in the page&#39;s content, and to creat emphasis when needed.</p>
+</div>
+      </div>
   </div>
 
   
@@ -433,6 +437,10 @@
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
             <h3 class="pattern-name tera push-1-8">Basic card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The basic card is used for information, and may contain links.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
@@ -441,26 +449,43 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
+              <code><pre>&lt;div class="card island-1-2 info-card"&gt;
+  &lt;h4 class="push-1-2">Update
+    &lt;p class="push-0">Our litter of Great Dane pups are ready to find new loving homes. Visit &lt;a href="#">here&lt;/a> for more information.&lt;/p>
+  &lt;/h4>&lt;/div>
 </pre></code>
             </div>
           </div>
       </div>
     </div>
-    <div class="pattern-details push" id="cards-icon-card">
+    <div class="pattern-details push" id="cards-dog-card">
         <div class="push">
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
-            <h3 class="pattern-name tera push-1-8">Icon card</h3>
+            <h3 class="pattern-name tera push-1-8">Dog card</h3>
           </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The dog card is used specifically for showcasing the rescue&#39;s animals. Some elements may be hidden at smaller sizes.</p>
+</div>
+            </div>
         </div>
 
       <div class="pattern-examples">
         <div class="gutter">
-          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+          <iframe class="push" src="patterns/cards/dog-card.html" onload="resizeIframe(this)"></iframe>
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
+              <code><pre>&lt;div class="card dog-card push-1-2 pad-bottom"&gt;
+  &lt;div class="embed embed-4by3">
+    &lt;img class="img-flex embed-item" src="../../images/wolfhound-1.jpg" alt="wolfhound">
+  &lt;/div>
+  &lt;div class="card-content island-1-2">
+    &lt;h3 class="push-1-2"> Mike&lt;/h3>
+    &lt;strong>3 year old male Wolfhound mix&lt;/strong>
+    &lt;p>Mike is an easy going boy that loves chidren. While he gets along with most other animals, he can be a little shy at first.&lt;/p>
+    &lt;small class="right">posted &lt;date>07/02/16&lt;/date>&lt;/small>
+  &lt;/div>
+&lt;/div>
 </pre></code>
             </div>
           </div>
