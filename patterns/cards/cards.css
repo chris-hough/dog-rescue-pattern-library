@@ -17,3 +17,7 @@ small {
   border-top: 3px solid var(--color-secondary);
   border-bottom: 3px solid var(--color-secondary);
 }
+
+.card-bg {
+  background-color: var(--color-primary-light);
+}
