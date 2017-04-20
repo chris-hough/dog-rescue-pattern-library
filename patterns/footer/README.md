@@ -1,0 +1,1 @@
+The light version of the primary color is used for all footer content to keep it unobtrusive. Links within the footer turn white when hovered on. Half of the space in the footer is reserved for any required legal information.

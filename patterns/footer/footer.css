@@ -1,0 +1,35 @@
+footer {
+  background-color: var(--color-primary);
+}
+
+footer small {
+  color: var(--color-primary-light);
+}
+
+footer .icon {
+  top: .25em;
+  padding-left: 2em;
+  padding-top: .125em;
+}
+
+footer a:hover {
+  color: #fff;
+  transition: all 300ms;
+}
+
+footer a {
+  color: var(--color-primary-light);
+}
+
+.top-link {
+  text-decoration: underline;
+  font-size: .889em;
+}
+.top-link:hover {
+  text-decoration: underline;
+}
+
+.top-link:focus {
+  color: var(--color-primary-light);
+  text-decoration: underline;
+}

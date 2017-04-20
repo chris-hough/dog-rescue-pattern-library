@@ -1,23 +1,35 @@
 .dog-card {
   max-width: 500px;
   border-radius: 15px 0px 15px 0px;
+  background-color: var(--color-neutral-light);
 }
 
-small {
+.sm-right {
   text-align: right;
 }
 
-.card {
+.dog-card .card {
   background-color: #fff;
   margin: 1em;
   overflow: hidden;
 }
 
 .info-card {
+  background-color: #fff;
+}
+
+.info-card h4{
   border-top: 3px solid var(--color-secondary);
+}
+
+.info-card p {
   border-bottom: 3px solid var(--color-secondary);
 }
 
 .card-bg {
   background-color: var(--color-primary-light);
+}
+
+.dog-card h3 {
+  color: #fff;
 }

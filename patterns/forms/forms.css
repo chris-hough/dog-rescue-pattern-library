@@ -1,0 +1,47 @@
+fieldset {
+  border: none;
+  display: inline-block;
+}
+
+form span {
+  font-weight: normal;
+  padding-right: 1rem;
+}
+
+form body {
+  background-color: #fff;
+}
+
+html {
+  background-color: var(--color-primary-light);
+}
+
+input[type="radio"] + label {
+  display: inline-block;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-secondary);
+}
+
+.error-message {
+  display: none;
+  color: var(--color-secondary);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="radio"]:invalid + label::before {
+  border-color: var(--color-secondary);
+}
