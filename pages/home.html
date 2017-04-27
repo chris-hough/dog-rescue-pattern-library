@@ -18,7 +18,11 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Vesper+Libre:400,700" rel="stylesheet">
 </head>
 <body>
-  <header class="grid grid-middle" id="top">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header class="grid grid-middle" id="top" role="navigation">
     <div class="unit xs-1 s-1 m-1 l-1 logo">
       <div class="logo-img valign-center gutter-1-2">
         <img class="left logo-icon icon" src="../images/logo.svg" alt="">
@@ -28,7 +32,7 @@
         <h6 class="subtitle">Rescue and Rehabilitation Services</h6>
       </div>
     </div>
-    <nav class="unit xs-1 s-1 m-1 l-1 gutter-1-2 pad-b">
+    <nav class="unit xs-1 s-1 m-1 l-1 gutter-1-2 pad-b" id="nav">
       <div class="dropdown">
         <button class="dropbtn">ABOUT BHRRS</button>
         <div class="dropdown-content">
@@ -56,7 +60,7 @@
       </div>
     </nav>
   </header>
-  <div class="banner">
+  <div class="banner" role="banner">
     <div class="banner-img">
       <img src="../images/banner-dog.jpg" class="img-flex" alt="banner">
     </div>
@@ -64,7 +68,7 @@
       <div class=" island-1-2">
         <h2 class="yotta">Help me find my way home.</h2>
         <div class="">
-          <a class="btn btn-ghost">
+          <a href="dog-pages.html" class="btn btn-ghost">
             <span class="bold">ADOPT TODAY</span>
           </a>
         </div>
@@ -92,7 +96,7 @@
       <li><a href="#">Volunteer</a></li>
     </ul>
   </div>
-  <main class="max-length">
+  <main class="max-length" role="main" id="main">
     <section class=" text-section max-length pad-t gutter pad-b">
       <h4 class="push-0">Who we are:</h4>
       <p>Birch Haven Rescue and Rehabilitation Services; located in Eastern Ontario, Canada on 148 acres was founded in 1996 as a personal rescue to assist those Great Danes/other Giant Canine Breeds and Equine animals that have been abandoned, abused, neglected and otherwise mistreated by rescuing, fostering, rehabilitating physically plus behaviourally and then placing them into their forever loving homes.</p>
@@ -103,7 +107,7 @@
           <img class="push img-flex" src="../images/mastiff-1.jpg" alt="mastiff">
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2">
-          <img class="push img-flex" src="../images/wolfhound-2.jpg" alt="mastiff">
+          <img class="push img-flex" src="../images/wolfhound-2.jpg" alt="wolfhound">
         </div>
       </div>
       <p>We are very small, private and are committed to personal rescue plus re-homing that is completely financed by monetary gifts, owner surrender plus adoption fees as we do not any receive government, provincial or corporate funding. We are financed mainly out of our own pockets. We also work very hard to assist various breeders, rescue groups, shelters, organizations and friends in placing rescues or re-homing animals that come into their hands. We only organize and facilitate in these situations.</p>
@@ -113,7 +117,7 @@
       <p class="push-0">As of December 1st, 2016; BHRR shall no longer be responding to any inquires to adopt. We are following the lead of other r/q organizations and ONLY completed adoption applications submitted to the BHRR shall be considered/responded to. Visit <a href="#">here</a> for more information.</p>
     </div>
   </main>
-  <footer class="valign-middle gutter grid">
+  <footer class="valign-middle gutter grid" role="contentinfo">
     <small class="unit xs-1-2">Birch Haven<br>Copyright information 2017.</small>
     <a href="#top" class="unit gutter xs-1-4 top-link">TOP</a>
     <div class="unit xs-1-4 text-right">
