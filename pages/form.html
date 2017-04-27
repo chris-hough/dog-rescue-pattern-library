@@ -139,9 +139,9 @@
           <span>CHILDREN AT HOME?</span>
           <input type="radio" id="yes-children" name="children" required aria-describedby="radio-error">
           <label for="yes-children">yes</label>
-          <input type="radio" id="no-children" name="children" required aria-describedby="radio-error">
+          <input type="radio" id="no-children" name="children" required aria-describedby="child-radio-error">
           <label for="no-children">no</label>
-          <p class="error-message milli push-0" id="radio-error">
+          <p class="error-message milli push-0" id="child-radio-error">
             <span>Please make a selection</span>
           </p>
         </fieldset>
@@ -159,9 +159,7 @@
             <span>Please read and agree to the adoption requirements</span>
           </p>
         </div>
-        <div class="unit xs-1">
-          <btn class="btn push btn-strong" type="submit">Submit</btn>
-        </div>
+        <btn class="btn push btn-strong unit xs-1" type="submit">Submit</btn>
       </div>
     </form>
   </main>
