@@ -31,14 +31,6 @@
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
-.btn-ghost:hover,
-.btn-ghost:focus {
-  background-color: transparent;
-  color: #fff;
-  border-color: #fff;
-  background-image: linear-gradient(to bottom, transparent, var(--color-primary-light));
-  box-shadow: none;
-}
 
 .btn-strong {
   background-color: var(--color-secondary);
@@ -46,8 +38,18 @@
 }
 
 .btn-strong:focus,
-.btn-strong:hover {
+.btn-strong:hover,
+.btn-strong:active {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   background-image: linear-gradient(to bottom, var(--color-secondary), rgba(255, 255, 255, .5));
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+  background-image: linear-gradient(to bottom, transparent, var(--color-primary-light));
+  box-shadow: none;
 }
