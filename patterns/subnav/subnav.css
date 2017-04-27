@@ -40,6 +40,11 @@ html {
   }
 }
 
+.current {
+  font-style: italic;
+}
+
+
 @media only screen and (min-width: 90em) {
 
   .sub-navigation {

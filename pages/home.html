@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Vesper+Libre:400,700" rel="stylesheet">
 </head>
 <body>
-  <header class="grid grid-middle">
+  <header class="grid grid-middle" id="top">
     <div class="unit xs-1 s-1 m-1 l-1 logo">
       <div class="logo-img valign-center gutter-1-2">
         <img class="left logo-icon icon" src="../images/logo.svg" alt="">
@@ -32,7 +32,7 @@
       <div class="dropdown">
         <button class="dropbtn">ABOUT BHRRS</button>
         <div class="dropdown-content">
-          <a href="#">Home</a>
+          <a  class="current" href="home.html">Home</a>
           <a href="#">News</a>
           <a href="#">Success stories</a>
           <a href="#">Contact us</a>
@@ -41,9 +41,9 @@
       <div class="dropdown">
         <button class="dropbtn">ADOPT A DOG</button>
         <div class="dropdown-content">
-          <a href="#">Available dogs</a>
+          <a href="dog-pages.html">Available dogs</a>
           <a href="#">Adoption requirements</a>
-          <a href="#">Application</a>
+          <a href="form.html">Application</a>
         </div>
       </div>
       <div class="dropdown">
@@ -74,16 +74,16 @@
   <div class="gutter-1-2 sub-navigation left pad-t">
     <h6 class="push-0">ABOUT BHRRS</h6>
     <ul class="list-group push micro">
-      <li><a href="#">Home</a></li>
+      <li><a class="current" href="home.html">Home</a></li>
       <li><a href="#">News</a></li>
       <li><a href="#">Success stories</a></li>
       <li><a href="#">Contact us</a></li>
     </ul>
     <h6 class="push-0">ADOPTION</h6>
     <ul class="list-group push micro">
-      <li><a href="#">Available dogs</a></li>
+      <li><a href="dog-pages.html">Available dogs</a></li>
       <li><a href="#">Adoption requirements</a></li>
-      <li><a href="#">Application</a></li>
+      <li><a href="form.html">Application</a></li>
     </ul>
     <h6 class="push-0">HOW TO HELP</h6>
     <ul class="list-group push micro">
@@ -115,7 +115,7 @@
   </main>
   <footer class="valign-middle gutter grid">
     <small class="unit xs-1-2">Birch Haven<br>Copyright information 2017.</small>
-    <a href="#" class="unit gutter xs-1-4 top-link">TOP</a>
+    <a href="#top" class="unit gutter xs-1-4 top-link">TOP</a>
     <div class="unit xs-1-4 text-right">
       <a href="#">
         <i class="icon i-32 inline-block island-1-4">
