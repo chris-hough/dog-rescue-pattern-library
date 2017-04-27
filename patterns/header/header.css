@@ -34,36 +34,36 @@ header nav {
   display: block;
 }
 .dropbtn {
-    background-color: #fff;
-    border-radius: 0 0 15px 0;
-    border: none;
-    width: 90px;
-    line-height: 1em;
-    color: var(--color-primary-light);
+  background-color: #fff;
+  border-radius: 0 0 15px;
+  border: none;
+  width: 90px;
+  line-height: 1em;
+  color: var(--color-primary-light);
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 90px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 0 0 15px 0;
-    overflow: hidden;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0 0 15px;
+  overflow: hidden;
 }
 
 .dropdown-content a {
-    color: var(--color-primary);
-    padding: 6px;
-    text-decoration: none;
-    display: block;
-    font-size: .889em;
+  color: var(--color-primary);
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+  font-size: .889em;
 }
 
 .dropdown-content a:hover {
@@ -73,7 +73,7 @@ header nav {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .dropdown:hover .dropbtn {
@@ -83,7 +83,7 @@ header nav {
 }
 
 .dropbtn:focus,
-.dropbtn:active
+.dropbtn:active,
 .dropbtn:hover {
   color: var(--color-primary);
 }
@@ -91,21 +91,21 @@ header nav {
 @media only screen and (min-width: 25em) {
 
   .dropbtn {
-      width: 110px;
-      margin-right: 3px;
-    }
+    width: 110px;
+    margin-right: 3px;
+  }
 
-    .dropdown-content {
-        width: 120px;
-    }
+  .dropdown-content {
+    width: 120px;
+  }
 
-    .dropdown-content a {
-        font-size: 1em;
-    }
+  .dropdown-content a {
+    font-size: 1em;
+  }
 
-    .subtitle {
-      font-size: 1em;
-    }
+  .subtitle {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -119,25 +119,25 @@ header nav {
   }
 
   .dropbtn {
-      width: 160px;
-      margin-right: 3px;
-      line-height: normal;
-    }
-
-    .dropdown-content {
-        width: 160px;
-    }
+    width: 160px;
+    margin-right: 3px;
+    line-height: normal;
   }
+
+  .dropdown-content {
+    width: 160px;
+  }
+}
 
 @media only screen and (min-width: 60em) {
 
   .dropbtn {
-      width: 180px;
-      margin-right: 3px;
-      line-height: normal;
-    }
-
-    .dropdown-content {
-        width: 180px;
-    }
+    width: 180px;
+    margin-right: 3px;
+    line-height: normal;
   }
+
+  .dropdown-content {
+    width: 180px;
+  }
+}

@@ -15,7 +15,6 @@ html {
   color: var(--color-primary);
 }
 
-
 .sub-navigation h6 {
   color: #fff;
 }
@@ -64,6 +63,5 @@ html {
   .sub-nav-narrow ul {
     margin-left: 0;
   }
-
 
 }

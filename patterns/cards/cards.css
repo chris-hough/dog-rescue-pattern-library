@@ -1,6 +1,6 @@
 .dog-card {
   max-width: 500px;
-  border-radius: 15px 0px 15px 0px;
+  border-radius:15px 0px;
   background-color: var(--color-neutral-light);
 }
 
@@ -18,7 +18,7 @@
   background-color: #fff;
 }
 
-.info-card h4{
+.info-card h4 {
   border-top: 3px solid var(--color-secondary);
 }
 
