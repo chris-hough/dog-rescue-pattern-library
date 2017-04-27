@@ -1,6 +1,7 @@
 header {
   background-color: #fff;
 }
+
 header nav {
   background-color: var(--color-primary-light);
 }
@@ -33,6 +34,7 @@ header nav {
   margin-right: .25em;
   display: block;
 }
+
 .dropbtn {
   background-color: #fff;
   border-radius: 0 0 15px;
@@ -52,7 +54,7 @@ header nav {
   position: absolute;
   background-color: #fff;
   min-width: 90px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 0 0 15px;
   overflow: hidden;
